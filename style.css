@@ -1,0 +1,323 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p,a, em, font, img,
+strong, ol, ul, li {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	font-size: 62.5%;
+	font-family: goergia, helvetica, arial, sans-serif;
+	line-height: 1.5;
+	background: url(images/body_bg.png) top left;
+}
+ol, ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.clear {
+	clear: both;
+}
+
+#wrapper {
+	width: 802px;
+	margin: 20px auto;
+	border: 1px solid white;
+}
+
+#header div#navBar ul.mainNav a#here {
+	color: #292929;
+}
+#header div#logo {
+	float: right;
+	text-align: center;
+	width: 166px; height: 172px;
+	background: url(images/logo_bg.jpg) repeat-x top left;
+}
+
+#header div#logo ul#small-nav {
+	margin: 17px 0px 0px 0px;
+	padding: 0px 0px 9px 0px;
+	background: url(images/saperator.png) no-repeat bottom center;
+}
+
+#header div#logo ul#small-nav li{
+	display: inline;
+}
+
+#header div#logo ul#small-nav li a {
+	color: white;
+	font-size: 1.1em;
+	text-transform: uppercase;
+	border-right: 1px solid white;
+	padding-right: 5px;
+}
+
+#header div#logo ul#small-nav li:last-child a {
+	border: none;
+}
+
+#header div#logo h3 {
+	color: white;
+	font-family: tahoma;
+	font-size: 1.2em;
+	font-weight: normal;
+	padding-top: 10px;
+}
+
+#header div#logo span {
+	color: #fa123;
+	
+}
+
+#header div#logo p.login {
+	margin: 0px 0px 0px 0px;
+	padding: 8px 15px 0px 0px;
+	color: white;
+	font-size: 1.1em;
+	}
+#header div#logo p.login a {
+	color: #ff7260;
+	font-weight: bold;
+}
+}
+
+#header div#banner img {
+	margin-top: 0px
+	}
+
+#header div#navBar {
+    
+	height: 33px; 
+	background: #2d2d2d;
+}
+
+#header div#navBar ul.mainNav li {
+	float: left;
+	position: relative;
+}
+
+#header div#navBar ul.mainNav li a {
+	display: block;
+	color: yellow;
+	font-size: 1.2em;
+	font-weight: bold;
+	margin: 0px 10px;
+	line-height: 33px;
+}
+
+#header div#navBar li ul {
+	position: absolute;
+	left: 10px;
+	width: 130px;
+	display: none;
+	background: #2d2d2d;
+}
+
+#header div#navBar ul.mainNav li ul li {
+	width: 100%;
+	border-bottom: 1px dotted white;
+}
+
+#header div#navBar ul.mainNav li:hover ul {
+	display: block;
+}
+
+/****	MAIN SETTINGS	****/
+#primary {
+	font-size: 1.2em;
+	background: white;
+	float: left;
+	width: 636px;
+}
+#content {
+	background: white;
+	width: 802px;
+}
+#sidebar {
+	float:right;
+	width: 166px;
+}
+
+
+
+
+/****	PRIMARY		****/
+
+
+/**** TIER 1	****/
+#tier-1 {
+	overflow: hidden;
+	border-bottom: 1px dotted #bfb8b2;
+}
+
+.post-item {
+	float: left;
+	width: 636px;
+	margin: 20px 10px;
+}
+
+.post-item h1 {
+	color: #338;
+	font-size: 1.3em;
+	padding-left: 15px;
+	border-bottom: 1px solid #bfb8b2;
+	margin-bottom: 10px;
+	}
+
+.post-item span {
+	color: #c23903;
+}
+
+.post-item img {
+	float: left;
+	margin: 3px 5px 0px 0px;
+}
+.post-item p{
+width: 620px;
+}
+div.metadata {
+	font-size: .9em;
+	text-align: right;
+	float: right;
+	margin: 0px 10px 10px 10px;
+}
+div.metadata a {
+	color: "#fcfcff";
+	padding-left: 15px;
+	padding-right: 15px;
+	background: url(images/bullets.png) no-repeat 0 50%;
+}
+
+
+/**** 	SIDEBAR	 	****/
+
+#sidebar div#search {
+	height: 107px;
+	border-top: 1px solid white;
+	padding: 5px;
+	background: #e2e4d7;
+}
+
+#sidebar div#search p {
+	font-size: 1.1em;
+	text-transform: uppercase;
+	border-left: 2px solid #c23903;
+	margin: 5px 0px;
+	padding-left: 5px;
+}
+
+input#search-field {
+	width: 120px;
+	margin: 5px 0px;
+}
+
+.btnsearch {
+	background: #007eff;
+	color: white;
+	border: 1px solid #b4b5b0;
+	padding: 3px;
+	cursor: pointer;
+	margin: 5px 0px;
+}
+
+.btnsearch :hover {
+	background: #ff6600;
+}
+
+#search a {
+	color: #ff6600;
+	font-size: 1.3em;
+}
+
+/*** featured ***/
+#sidebar div#feature{
+background: #f3f3f3;	
+}
+
+#sidebar div#feature h1 {
+	color: white;
+	text-transform: uppercase;
+	font-size: 1.4em;
+	text-align: center;
+	padding: 6px;
+	background:#2d2d2d;
+}
+
+#sidebar div#feature ul {
+	padding: 5px 5px;
+}
+
+#sidebar div#feature li {
+	border-bottom: 1px dotted white;
+	padding: 5px 0px;
+	color: #6f90ce;
+	font-size: 1.3em;
+}
+
+#sidebar div#feature li:last-child {
+	border: none;
+}
+
+#sidebar div#news {
+	border: 1px solid white;
+	overflow: hidden;
+	background: white url(images/featured_bg.jpg) repeat-x top left;
+}
+
+#sidebar div#news h1 {
+	font-size: 1.4em;
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+	margin: 8px 0px 15px;
+}
+
+#sidebar div#news ul {
+	padding: 0px 0px 0px 0px;
+}
+
+#sidebar div#news li {
+	padding-bottom: 10.4px;
+	font-size: 1.2em;
+}
+
+#sidebar div#news li img{
+	float: left;
+	clear: both;
+	margin-right: 5px;
+}
+/**** 	FOOTER		****/
+
+#footer {
+	color: white;
+	background: #2d2d2d;
+	font-size: 1.3em;
+	float: right;
+	width: 800px; height: 32px;
+	border: 1px solid white;
+	margin-top:10px;
+}
+#footer p.copyright {
+    margin-left: 30px;
+	float: left;
+}
+#footer p {
+	float: right;
+	margin-right: 15px;
+}
+
+
+
+
+
